@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    user-select: none;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    background-color: rgb(185, 68, 68);
+    margin: 0;
+    flex-direction: column;
+}
+
+#title {
+    font-size: xx-large;
+    color: aliceblue;
+    padding: 10px;
+    align-self: center;
+    font-style: italic;
+}
+
+#board {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    background-color: aliceblue;
+    align-self: center;
+    border-radius: 4px;
+    border-color: black;
+    border-style: solid;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color:aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 146px;
+    width: 146px;
+    flex-shrink: 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 90px;
+    margin: auto;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+#nopointer {
+    cursor: default;
+}
+
+#display {
+    display: flex;
+    background-color: aliceblue;
+    width: 275px;
+    height: 50px;
+    align-self: center;
+    margin-top: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+#restart {
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
